@@ -1,0 +1,70 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LVC - FCSVM</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container_16">
+			<header class="grid_16">
+				<a href="home.html" target="_self"><img src="Images\Picture3.png" alt="Fully Convolutional SVM" /></a>
+				<div class="grid_16 alpha omega">
+					<nav>
+						<ul>
+							<li><a href="home.html" target="_self">Home</a></li>
+							<li>|</li>
+							<li><a href="staff.html" target="_self">Staff</a></li>
+							<li>|</li>
+							<li><a href="minutes.html" target="_self">Minutes</a></li>
+							<li>|</li>
+							<li><a href="databases.html" target="_self">Databases</a></li>
+							<li>|</li>
+							<li><a href="downloads.html" target="_self">Downloads</a></li>
+							<li>|</li>
+							<li><a href="reports.html" target="_self">Reports</a></li>
+							<li>|</li>
+							<li><a href="links.html" target="_self">Links</a></li>
+							<li>|</li>
+							<li><a href="References.html" target="_self">References</a></li>
+							<li>|</li>
+							<li><a href="News.html" target="_self">News</a></li>
+							<li>|</li>
+							<li><a href="userlogin.html">Login</a></li>	
+						</ul>
+					</nav>
+				</div>
+			</header>
+			
+			<div class="grid_16 home_description">		
+				<h1>Overview</h1>
+				<p>The project aims to evaluate and develop domain adaptation methods to the generalization improvement of deforestation detection techniques in remote sensing images.</p>
+				<h1> Introduction </h1>
+				<p>Over the last decades, much of the effort involved in deploying automatic image classification algorithms has been invested in designing 
+				an manually selecting custom features for a target application. Recently, Deep Learning techniques have become the dominant trend in many applications being the main reason for such success the ability
+				of these methods to automatic learn representative features directly from data.</p>
+				
+				<p>Although recent years have witnessed an increase of Earth observation data, remote sensing labeled data still short of the demands imposed by 
+				Deep Learning based techniques, mainly beacause of the high costs involved in field survey and the required labor-intensive visual interpretation.</p>
+				
+				<p>With this in mind, innumerable ideas had been proposed. Transfer learning [1][2] and unsupervised deep learning techniques, such as Stacked Denoising
+				Autoencoders [3], Convolutional Autoencoders [4] and Deep Belief Networks [5], emerged as attractive alternatives. Recently, Melgani et al [6], proposed an alternative
+				learning strategy based on SVMs called Convolutional SVMs (CSVMs), extending the use of SVM classifier to act as convolutional filter for the supervised 
+				generation of feature maps in image categorization problems and bringing as main adventage the use of less training samples for the learning stage. However,
+				the results obtained by the latter work on deforestation detection applications were poor in terms of its precission which was demonstrated at Ortega et al [12].</p> 
+				
+				<p>Another well known deep learning techniques problem is the generalization capability of the networks. In this regard, Domain Adaptation (DA) techniques have been applied
+				in the past years in order to alleviate the aforementioned problem. Mostly used on changing environments like the ones faced by self-driving cars, 
+				DA methods have greatly benefited Semantic Segmentation performance on these challenging environments. As example we can cite the works
+				proposed by Zhu et al [10], Murez et al [11] and others that have applied Cycle GANs [10] aiming to adapat the domain of unseen images to the one used in the training
+				of the classifiers.</p>
+				
+				<p>Motivated by this scenario, this project wants to apply DA approaches on deforestation detection applications, hypothesizing that the performance of the 
+				classifiers will increase when new satellite images were evaluated.</p>				
+					
+			</div>
+			<footer class="grid_16">
+				<div class="website-footer"><p>&copy;2019 Domain Adaptation PROJECT</p></div>
+			</footer>
+		</div>
+	</body>
+</html>
